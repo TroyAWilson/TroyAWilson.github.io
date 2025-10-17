@@ -1,0 +1,275 @@
+
+/* 
+Creepster
+Nosifer
+Rubik Glitch
+Jolly Lodger
+Fascinate Inline
+*/
+
+
+:root {
+    --black: #000;
+    --dark: #760f36;
+    --med: #ed5580;
+    --light: #FFBCCC;
+    --bg: #fde8e5;
+    
+    --dark: #76360f;
+    --med: #ed8055;
+    --light: #ffccbc;
+    --bg: #fdeee5;
+    
+    
+  
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--dark);
+    font-family: "Figtree", sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1000px;
+    margin: 0 auto;
+
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tagline {   
+    font-family: "Jolly Lodger", system-ui;
+    color: var(--med);
+    font-size: 1.9rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: end;
+    filter: drop-shadow(1px 1px 0px var(--dark));
+    text-decoration: 2px dashed underline var(--med);
+}
+
+.name{
+    color: var(--med);
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    margin: 10px;
+    text-align: justify;
+    text-align-last: justify;
+    width: fit-content;
+    line-height: 0.7em;
+    filter:drop-shadow(2px 2px 0px var(--dark));
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    align-items: start;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.left, .right {
+    flex: 1;
+    padding: 20px;
+}
+
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main-content h2 {
+    margin-bottom: 10px;
+    color: var(--med);
+    background-color: var(--light);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about-me {
+    border: 2px dashed var(--med);
+    padding: 15px;
+    border-radius: 20px;
+    max-width: 500px;
+}
+.about-me u {
+    text-decoration-color: var(--med);
+    text-decoration-thickness: 2px;
+}
+
+.me{
+    max-width: min(150px, 60vw);
+    filter:  drop-shadow(5px 5px 0px var(--med));
+}
+.me:hover {
+    transform: rotate(-5deg);
+    transition: transform 0.1s;
+}
+
+.icon-and-blab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.icon-and-blab div {
+    background-color: var(--light);
+    max-width: 140px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px dashed var(--med);
+    margin-left: 15px;
+    box-shadow: 5px 5px 0px var(--med);
+}
+
+.right-home-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px dashed var(--med);
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    transform: rotate(-5deg);
+}
+
+.right-home-buttons a:nth-child(2) {
+    transform: rotate(5deg);
+}
+
+.right-home-buttons a:hover {
+    background-color: var(--med);
+    transform: rotate(-10deg);
+    color: var(--bg);
+}
+
+.left-home-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px dashed var(--med);
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.left-home-buttons a:hover {
+    background-color: var(--med);
+    transform: rotate(5deg);
+    color: var(--bg);
+    box-shadow: 5px 5px 0px var(--dark);
+
+}
+
+.socials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--med);
+    box-shadow: 5px 5px 0px var(--med);
+    border-radius: 15px;
+    color: var(--dark);
+}
+
+.socials-container h3 {
+    text-decoration: dashed underline var(--dark);
+    text-underline-offset: 5px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: var(--dark);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.social-links a:hover {
+    color: white;
+    transition: color 0.2s;
+    background-color: var(--med);
+    box-shadow: 3px 3px 0px var(--dark);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px dashed var(--med);
+    color: var(--dark);
+    font-size: 0.9rem;
+}
+
+/* Scrollbar */
+:root {
+  /* use your palette */
+  --scroll-track: var(--bg, #fdeee5);
+  --scroll-thumb: var(--light, #ffccbc);
+  --scroll-thumb-hover: var(--med, #ed8055);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;                    /* auto | thin | none */
+  scrollbar-color: var(--scroll-thumb) var(--scroll-track);
+}
+
+/* WebKit (Chrome/Edge/Safari) */
+*::-webkit-scrollbar {
+  width: 10px;                              /* vertical bar width */
+  height: 10px;                             /* horizontal bar height */
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--scroll-track);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 8px;
+  border: 2px solid var(--scroll-track);    /* adds “padding” effect */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--scroll-thumb-hover);
+}
