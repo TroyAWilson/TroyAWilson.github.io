@@ -72,7 +72,14 @@ header {
     width: fit-content;
     line-height: 0.7em;
     filter:drop-shadow(2px 2px 0px var(--dark));
+    transition: color 0.1s ease-in-out, filter 0.3s ease-in-out;
 }
+
+.name:hover {
+    color: var(--light);
+    filter:drop-shadow(2px 2px 0px var(--med));
+}
+
 
 .container {
     display: flex;
@@ -150,29 +157,6 @@ header {
     box-shadow: 5px 5px 0px var(--med);
 }
 
-.right-home-buttons a {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
-    border: 2px dashed var(--med);
-    border-radius: 5px;
-    text-decoration: none;
-    color: var(--black);
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
-    transform: rotate(-5deg);
-}
-
-.right-home-buttons a:nth-child(2) {
-    transform: rotate(5deg);
-}
-
-.right-home-buttons a:hover {
-    background-color: var(--med);
-    transform: rotate(-10deg);
-    color: var(--bg);
-}
-
 .left-home-buttons a {
     display: inline-block;
     margin: 10px;
@@ -187,7 +171,7 @@ header {
 
 .left-home-buttons a:hover {
     background-color: var(--med);
-    transform: rotate(5deg);
+    transform: rotate(2deg);
     color: var(--bg);
     box-shadow: 5px 5px 0px var(--dark);
 
@@ -202,6 +186,7 @@ header {
     box-shadow: 5px 5px 0px var(--med);
     border-radius: 15px;
     color: var(--dark);
+    padding: 20px;
 }
 
 .socials-container h3 {
@@ -222,11 +207,11 @@ header {
     margin: 10px;
     padding: 5px;
     border-radius: 5px;
+    transition: 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .social-links a:hover {
-    color: white;
-    transition: color 0.2s;
+    color: var(--bg);
     background-color: var(--med);
     box-shadow: 3px 3px 0px var(--dark);
 }
@@ -244,7 +229,7 @@ footer {
 
 /* Intro page */
 .enter-link {
-    margin-top: 20px;
+    margin-top: 40px;
     text-decoration: none;
     color: var(--dark);
     border: 2px dashed var(--med);
@@ -307,4 +292,18 @@ footer {
 
 *::-webkit-scrollbar-thumb:hover {
   background: var(--scroll-thumb-hover);
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .left, .right {
+        text-align: center;
+    }
+    
 }
