@@ -21,7 +21,8 @@ Fascinate Inline
     --bg: #fdeee5;
     
     
-  
+    --darkFlowerIcon: "\273F";
+    --lightFlowerIcon: "\2740";
 }
 
 body {
@@ -97,10 +98,15 @@ header {
 }
 
 .left {
+    display: flex;
+    max-width: 200px;
     text-align: left;
+    justify-content: flex-start;
+    align-items: start;
 }
 .right {
     text-align: right;
+    min-width: 160px;
 }
 
 .main-content {
@@ -149,13 +155,31 @@ header {
 
 .icon-and-blab div {
     background-color: var(--light);
-    max-width: 140px;
+    max-width: 222px;
     padding: 10px;
     border-radius: 10px;
     border: 2px dashed var(--med);
     margin-left: 15px;
     box-shadow: 5px 5px 0px var(--med);
 }
+
+.icon-and-blab p {
+    margin: 5px 0;
+    line-height: 1.2rem;
+}
+
+.icon-and-blab p::before {
+    margin-right: 5px;
+}
+
+.icon-and-blab p:nth-child(odd)::before {
+    content: var(--darkFlowerIcon);
+}
+
+.icon-and-blab p:nth-child(even)::before {
+    content: var(--lightFlowerIcon);
+}
+
 
 .left-home-buttons a {
     display: inline-block;
@@ -216,6 +240,71 @@ header {
     box-shadow: 3px 3px 0px var(--dark);
 }
 
+.featured-stuff {
+    border: 2px dashed var(--med);
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-top: 10px;
+    line-height: 1.2rem;
+
+    background-color: var(--light);
+    box-shadow: 5px 5px 0px var(--med);
+}
+
+.featured-stuff a {
+    text-decoration: dashed underline var(--dark);
+    text-underline-offset: 3px;
+    color: var(--dark);
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.featured-stuff p::before {
+    content: "\203A";
+    margin-right: 5px;
+}
+
+.featured-stuff a:hover {
+    color: var(--med);
+    transition: 0.3s, color 0.3s;
+}
+
+
+.featured-stuff h4::after {
+    content: "\2935";
+}
+
+.featured-h3{
+    overflow:hidden;
+}
+
+.featured-h3::before, .featured-h3::after {
+    content:'';
+    display: inline-block;
+    vertical-align: middle;
+    width:50px;
+    height:1px;
+    border-top: 2px dashed var(--med);
+}
+
+.featured-h3::after {
+    width:100%;
+    margin-left: 20px;
+    margin-right: -100%;
+}
+.featured-h3::before {
+    margin-right: 20px;
+}
+
+.funny-images img {
+    max-width: 100px;
+    margin: 10px;
+    border: 3px dotted var(--med);
+    border-radius: 10px;
+}
+
 footer {
     text-align: center;
     margin-top: 40px;
@@ -244,6 +333,10 @@ footer {
     transition: 0.3s, color 0.3s;
 }
 
+.ascii-art{
+    cursor: default;
+}
+
 .ascii-art::before {
     white-space: pre;
     font-family: monospace;
@@ -258,9 +351,7 @@ footer {
 }
 
 
-
-
-/* Scrollbar */
+/* ----Scrollbar---- */
 :root {
   /* use your palette */
   --scroll-track: var(--bg, #fdeee5);
@@ -268,16 +359,14 @@ footer {
   --scroll-thumb-hover: var(--med, #ed8055);
 }
 
-/* Firefox */
 * {
-  scrollbar-width: thin;                    /* auto | thin | none */
+  scrollbar-width: thin;                    
   scrollbar-color: var(--scroll-thumb) var(--scroll-track);
 }
 
-/* WebKit (Chrome/Edge/Safari) */
 *::-webkit-scrollbar {
-  width: 10px;                              /* vertical bar width */
-  height: 10px;                             /* horizontal bar height */
+  width: 10px;                              
+  height: 10px;                             
 }
 
 *::-webkit-scrollbar-track {
@@ -287,15 +376,15 @@ footer {
 *::-webkit-scrollbar-thumb {
   background: var(--scroll-thumb);
   border-radius: 8px;
-  border: 2px solid var(--scroll-track);    /* adds “padding” effect */
+  border: 2px solid var(--scroll-track);    
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background: var(--scroll-thumb-hover);
+  background: var(--scroll-thumb-hover); /*Change this color*/
 }
 
 
-
+/* ----Media Queries---- */
 
 @media screen and (max-width: 600px) {
     .container {
@@ -304,6 +393,11 @@ footer {
     
     .left, .right {
         text-align: center;
+    }
+
+    .left-home-buttons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
     
 }
