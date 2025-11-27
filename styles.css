@@ -314,6 +314,10 @@ footer {
     font-size: 0.9rem;
 }
 
+footer p::after {
+    content: "\2661";
+    margin-left: 5px;
+}
 
 
 /* Intro page */
