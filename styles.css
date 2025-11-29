@@ -125,6 +125,31 @@ header {
     border-radius: 10px;
 }
 
+.currently-working-on {
+    border: 2px dashed var(--med);
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px;
+    line-height: 1.2rem;
+
+    background-color: var(--light);
+    box-shadow: 5px 5px 0px var(--med);
+}
+
+.currently-working-on a {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.currently-working-on a:hover {
+    color: var(--med);
+    transition: 0.3s, color 0.3s;
+}
+
 .about-me {
     border: 2px dashed var(--med);
     padding: 15px;
