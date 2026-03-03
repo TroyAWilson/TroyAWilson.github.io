@@ -31,6 +31,19 @@ body {
     font-family: "Figtree", sans-serif;
     margin: 0;
     padding: 20px;
+    background-image: url(images/doodle.png);
+    background-repeat: repeat;
+    background-size:auto; 
+    animation: moveBackground 60s linear infinite;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
 }
 
 header {
@@ -155,6 +168,7 @@ header {
     padding: 15px;
     border-radius: 20px;
     max-width: 500px;
+    background-color: var(--bg);
 }
 .about-me u {
     text-decoration-color: var(--med);
@@ -216,6 +230,7 @@ header {
     color: var(--dark);
     font-weight: bold;
     transition: 0.3s, color 0.3s;
+    background-color: var(--bg);
 }
 
 .left-home-buttons a:hover {
@@ -236,6 +251,7 @@ header {
     border-radius: 15px;
     color: var(--dark);
     padding: 20px;
+    background-color: var(--bg);
 }
 
 .socials-container h3 {
