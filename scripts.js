@@ -2,23 +2,23 @@ const cookingContainer = document.querySelector(".cooking-container");
 const cookingThings = [
     {
         title: "Japanese Curry",
-        image: "images/jpcurry_crop.jpg",
+        image: "/images/jpcurry_crop.jpg",
     },
     {
         title: "Potato Soup",
-        image: "images/potsoup.jpg",
+        image: "/images/potsoup.jpg",
     },
     {
         title: "Tomato Soup & Grilled Cheese",
-        image: "images/tomsoup.jpg",
+        image: "/images/tomsoup.jpg",
     },
     {
         title: "Stromboli",
-        image: "images/stromb_crop.jpg",
+        image: "/images/stromb_crop.jpg",
     },
     {
         title: "Habaneros",
-        image: "images/habs.jpg",
+        image: "/images/habs.jpg",
     },
 ]
 
