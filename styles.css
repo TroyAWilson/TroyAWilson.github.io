@@ -414,7 +414,11 @@ footer p::after {
 .cooking-container img {
     border-radius: 10px;
     box-shadow: 5px 5px 0px var(--med);
+    max-width: 300px;
+    margin-top: 20px;
 }
+
+
 
 /* ----Scrollbar---- */
 :root {
