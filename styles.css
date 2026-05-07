@@ -127,8 +127,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: min(100%, 1200px);
 }
 .main-content h2 {
     margin-bottom: 10px;
@@ -167,7 +166,7 @@ header {
     border: 2px dashed var(--med);
     padding: 15px;
     border-radius: 20px;
-    max-width: 500px;
+    max-width: min(500px, 100%);
     background-color: var(--bg);
 }
 .about-me u {
@@ -217,6 +216,12 @@ header {
 
 .icon-and-blab p:nth-child(even)::before {
     content: var(--lightFlowerIcon);
+}
+
+@media (max-width: 600px) {
+    .icon-and-blab {
+        flex-direction: column;
+    }
 }
 
 
