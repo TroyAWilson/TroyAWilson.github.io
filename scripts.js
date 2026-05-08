@@ -1,4 +1,9 @@
-const cookingContainer = document.querySelector(".cooking-container");
+const catImages = [
+    "catindryer.jpg", "catinfridge.jpg", "20250406_180529.jpg", 
+    "PXL_20251103_000841904.jpg", "PXL_20251103_000842723.jpg", "PXL_20251103_022555781.jpg", 
+    "PXL_20260327_231953866.jpg", "Snapchat-668973871.jpg", "Snapchat-2123923997.jpg", 
+    "Snapchat-4195133542.jpg", "Snapchat-6413555412.jpg",
+];
 const cookingThings = [
     {
         title: "Japanese Curry",
@@ -22,14 +27,38 @@ const cookingThings = [
     },
 ]
 
-for (const item of cookingThings) {
-    const itemDiv = document.createElement("div");
-    const itemImg = document.createElement("img");
-    const itemTitle = document.createElement("p");
-    itemImg.src = item.image;
-    itemImg.alt = item.title;
-    itemTitle.textContent = item.title;
-    itemDiv.appendChild(itemImg);
-    itemDiv.appendChild(itemTitle);
-    cookingContainer.appendChild(itemDiv);
+
+const catContainer = document.querySelector(".cat-container");
+if (catContainer) {
+    for (const img of catImages) {
+        const imgElement = document.createElement("img");
+        const imgA = document.createElement("a");
+        imgA.href = `/images/cats/${img}`;
+        imgA.target = "_blank";
+        imgElement.alt = `Cat image: ${img}`;
+        imgElement.src = `/images/cats/${img}`;
+        imgA.appendChild(imgElement);
+        catContainer.appendChild(imgA);
+    }
+}
+
+
+
+const cookingContainer = document.querySelector(".cooking-container");
+if (cookingContainer) {
+    for (const item of cookingThings) {
+        const itemDiv = document.createElement("div");
+        const itemImg = document.createElement("img");
+        const itemTitle = document.createElement("p");
+        const itemA = document.createElement("a");
+        itemImg.src = item.image;
+        itemImg.alt = item.title;
+        itemA.href = item.image;
+        itemA.appendChild(itemImg);
+        itemA.target = "_blank";
+        itemTitle.textContent = item.title;
+        itemDiv.appendChild(itemA);
+        itemDiv.appendChild(itemTitle);
+        cookingContainer.appendChild(itemDiv);
+    }
 }
