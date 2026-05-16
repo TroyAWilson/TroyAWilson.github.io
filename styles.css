@@ -351,6 +351,18 @@ header {
     border-radius: 10px;
 }
 
+.movie-posters {
+  filter: sepia(1) saturate(2) hue-rotate(-21deg) brightness(0.9);
+  transition: box-shadow 0.2s ease-in-out, transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.movie-posters:hover {
+  filter:none;
+  box-shadow: 5px 5px 0px var(--med);
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
 footer {
     text-align: center;
     margin-top: 40px;
@@ -421,19 +433,16 @@ footer p::after {
     box-shadow: 5px 5px 0px var(--med);
     max-width: 300px;
     margin-top: 20px;
+    transition: 0.3s ease-in-out;
 }
 
 .cooking-container img:hover, .cat-container img:hover {
     transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
     cursor: pointer;
 }
 
-
-
 /* ----Scrollbar---- */
 :root {
-  /* use your palette */
   --scroll-track: var(--bg, #fdeee5);
   --scroll-thumb: var(--light, #ffccbc);
   --scroll-thumb-hover: var(--med, #ed8055);
@@ -460,7 +469,7 @@ footer p::after {
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background: var(--scroll-thumb-hover); /*Change this color*/
+  background: var(--scroll-thumb-hover);
 }
 
 
