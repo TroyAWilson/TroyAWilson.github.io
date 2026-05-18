@@ -430,16 +430,18 @@ footer p::after {
 
 .cooking-container img, .cat-container img {
     border-radius: 10px;
-    box-shadow: 5px 5px 0px var(--med);
     max-width: 300px;
     margin-top: 20px;
-    transition: 0.3s ease-in-out;
+    /* filter: sepia(1) saturate(2) hue-rotate(-21deg) brightness(0.9); */
+    transition: box-shadow 0.2s ease-in-out, transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 
 .cooking-container img:hover, .cat-container img:hover {
-    transform: scale(1.05);
+    box-shadow: 5px 5px 0px var(--med);
+    transform: scale(1.01);
     cursor: pointer;
 }
+
 
 /* ----Scrollbar---- */
 :root {
