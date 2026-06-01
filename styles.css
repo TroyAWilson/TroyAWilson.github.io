@@ -354,6 +354,8 @@ header {
 .movie-posters {
   filter: sepia(1) saturate(2) hue-rotate(-21deg) brightness(0.9);
   transition: box-shadow 0.2s ease-in-out, transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+  max-width: 100%;
+  max-height: 350px;
 }
 
 .movie-posters:hover {
@@ -431,8 +433,9 @@ footer p::after {
 .cooking-container img, .cat-container img {
     border-radius: 10px;
     max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
     margin-top: 20px;
-    /* filter: sepia(1) saturate(2) hue-rotate(-21deg) brightness(0.9); */
     transition: box-shadow 0.2s ease-in-out, transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 
