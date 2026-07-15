@@ -7,4 +7,3 @@ python -m http.server 8000
 
 ```
 
-- I should make a page on here about my cats :)
