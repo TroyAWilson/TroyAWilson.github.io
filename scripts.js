@@ -7,6 +7,7 @@ const catImages = [
 ];
 
 const cookingThings = [
+    "salmon.jpg",
     "PXL_20260704_014509613.jpg",
     "PXL_20260702_010115411.MP.jpg",
     "jpcurry_crop.jpg",
