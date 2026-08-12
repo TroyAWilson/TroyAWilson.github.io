@@ -10753,5 +10753,23 @@
     "lightLux": 10839,
     "conductivity": 498,
     "batteryPercentage": 63
+  },
+  {
+    "recordedAt": "2026-08-12T12:46:14.749724",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 30.2,
+    "moisturePercentage": 19,
+    "lightLux": 9347,
+    "conductivity": 497,
+    "batteryPercentage": 63
+  },
+  {
+    "recordedAt": "2026-08-12T12:51:40.794555",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 29.9,
+    "moisturePercentage": 18,
+    "lightLux": 8791,
+    "conductivity": 502,
+    "batteryPercentage": 68
   }
 ]
