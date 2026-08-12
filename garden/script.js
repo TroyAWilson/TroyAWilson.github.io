@@ -49,8 +49,75 @@ const buildTempChart = (data) => {
     });
 };
 
+const buildMoistureChart = (data) => {
+    console.log(data);
+    const labels = data.map(r => new Date(r.recordedAt).toLocaleString());
+    const moistureData = data.map(r => r.moisturePercentage);
+
+    new Chart(document.getElementById('moistureChart').getContext('2d'), {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Soil Moisture',
+                data: moistureData,
+                fill: false,
+                borderColor: 'rgba(54, 162, 235, 1)',
+                tension: 0.1
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Soil Moisture Over Time'
+                }
+            }
+        }
+    });
+};
+
+const buildLightChart = (data) => {
+    const labels = data.map(r => new Date(r.recordedAt).toLocaleString());
+    const lightData = data.map(r => r.lightLux);
+
+    new Chart(document.getElementById('lightChart').getContext('2d'), {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Light Intensity (Lux)',
+                data: lightData,
+                fill: false,
+                borderColor: 'rgba(255, 206, 86, 1)',
+                tension: 0.1
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    display: true,
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Light Intensity Over Time'
+                }
+            }
+        }
+    });
+};
+
 document.addEventListener('DOMContentLoaded', () => {
     loadPlantData().then(data => {
         buildTempChart(data);
+        buildMoistureChart(data);
+        buildLightChart(data);
     });
 });
