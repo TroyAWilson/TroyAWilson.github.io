@@ -1,5 +1,24 @@
-.chart-container {
+:root {
+    --black: #000;
+    --dark: #76360f;
+    --med: #ed8055;
+    --light: #ffccbc;
+    --bg: #fdeee5;
+    
+    --darkFlowerIcon: "\273F";
+    --lightFlowerIcon: "\2740";
+}
+
+.canvasStyle {
+    border: 2px solid var(--med);
+    margin: 20px auto;
+    /* max-width: min(100%, 600px); */
+    width: 100%;
+    height: auto;
+}
+
+/* .chart-container {
     background-image: url('/images/garden/leaf.png');
     background-repeat: no-repeat;
     padding: 20px;
-}
+} */

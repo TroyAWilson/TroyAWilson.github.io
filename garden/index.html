@@ -3,20 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Garden &#x1F33F;</title>
+    <title>Our Garden</title>
     <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Jockey+One&family=Jolly+Lodger&family=Lobster&display=swap" rel="stylesheet">        
+        
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0"></script>
 </head>
 <body>
-    <div class="chart-container">
-        <canvas id="tempChart" style="max-width:600px; max-height:400px;"></canvas>
-    </div>
-    <canvas id="moistureChart" style="max-width:600px; max-height:400px;"></canvas>
-    <canvas id="lightChart" style="max-width:600px; max-height:400px;"></canvas>
+    <div style="padding: 20px; background-color: var(--bg); border: 3px solid var(--med); width: min(80vw, 1100px); margin: auto; border-radius: 15px;">
+    <header>
+        <h1><a class="name" href="/">Troy <br/>Wilson </a> </h1>
+        <span class="tagline">Software Developer & Designer</span>
+    </header>
+    <div class="container">
+        <aside class="left">
+            <nav class="left-home-buttons">
+                <a href="/about/">About</a>
+                <a href="/cooking/">Cooking</a>
+                <a href="/garden/">Garden</a>
+                <a href="/cats/">Cats</a>
+                <a href="https://treeii.itch.io/" target="_blank" rel="noreferrer">Games</a>
+            </nav>
+        </aside>
+        
+        <div style="flex: 1; padding: 20px;">
+            <h1 style="text-align: center;">Our Garden</h1>
+            <i>*This page is actively under construction*</i>
+            <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 20px; margin-top: 20px;">
+                <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; max-height: 300px; max-width: 300px; overflow: hidden;">
+                    <img src="/images/garden/garden_cat.png" alt="Garden Image" style="max-width: min(100%, 300px); height: auto; margin: 20px; padding: 10px;">
+                </div>
+                
+                <div>
+                    <h3>Garden Cat: Guardian and Caretaker</h3>
+                    <p>The Garden Cat watches over our plants, ensuring they thrive under his vigilant gaze.</p>
+                </div>
+            </div>
 
-    <img src="/images/garden/PXL_20260802_202903613.MP.jpg" alt="Garden Image" style="max-width: min(100%, 500px); height: auto; margin-top: 20px;">
-    <img src="/images/garden/garden_cat.png" alt="Garden Image" style="max-width: min(100%, 300px); height: auto; margin-top: 20px;">
+            <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 20px; margin-top: 20px;">
+                <div>
+                    <h3>Start of this year's Tomatoes</h3>
+                    <p>The tomatoes are just beginning to grow, promising a bountiful harvest in the coming months.</p>
+                </div>
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; max-height: 300px; max-width: 300px; overflow: hidden;">
+                    <img src="/images/garden/PXL_20260802_202903613.MP.jpg" alt="Garden Image" style="max-width: min(100%, 300px); height: auto; margin: 20px; padding: 10px;">
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
+                <h3 style="text-align: center;">Garden Sensor Data</h3>
+                <div  class="canvasStyle">
+                    <canvas id="tempChart"></canvas>
+                </div>
+                <div class="canvasStyle">
+                    <canvas id="moistureChart"></canvas>
+                </div>
+                <div class="canvasStyle">
+                    <canvas id="lightChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
