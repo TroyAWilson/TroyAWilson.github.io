@@ -121,3 +121,87 @@ document.addEventListener('DOMContentLoaded', () => {
         buildLightChart(data);
     });
 });
+
+
+
+
+
+/* Load images and words*/
+const yapContainer = document.getElementsByClassName('yapContainer')[0];
+
+const imagesAndWords = [
+    {
+        "title":"Garden Cat: Guardian and Caretaker",
+        "words":"Garden Cat watches over our plants, ensuring they thrive under his vigilant gaze.",
+        "image":"garden_cat.png",
+        "orientation":"left" //left/right
+    },
+    {
+        "title":"Start of this year's Tomatoes",
+        "words":"The tomatoes are just beginning to grow, promising a bountiful harvest in the coming months.",
+        "image":"PXL_20260802_202903613.MP.jpg",
+        "orientation":"right" //left/right
+    },
+]
+
+const imageCSS = "max-width: min(100%, 300px); height: auto; margin: 20px; padding: 10px;"
+const imageContainerCSS = "display: flex; flex-direction: column; align-items: center; justify-content: center; max-height: 300px; max-width: 300px; overflow: hidden;"
+const outterDivCSS = "display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 20px; margin-top: 20px;"
+
+
+
+if (yapContainer){
+    for(const iw of imagesAndWords){
+        const outterDiv = document.createElement("div")
+        outterDiv.style.cssText = outterDivCSS;
+        
+        const leftDiv = document.createElement("div")
+        const rightDiv = document.createElement("div")
+        const title = document.createElement("h3")
+        const words = document.createElement("p")
+        const image = document.createElement("img")
+        image.style.cssText = imageCSS
+        const imageContainer = document.createElement("div")
+        imageContainer.style.cssText = imageContainerCSS;
+   
+        title.textContent = iw.title
+        words.textContent = iw.words
+        image.src = `/images/garden/${iw.image}`
+        imageContainer.appendChild(image)
+
+        if (iw.orientation == "left"){
+            console.log('here')
+            rightDiv.appendChild(title)
+            rightDiv.appendChild(words)
+            outterDiv.appendChild(imageContainer)
+            outterDiv.appendChild(rightDiv)
+            yapContainer.appendChild(outterDiv)
+
+        }
+        else{//image on right
+            leftDiv.appendChild(title)
+            leftDiv.appendChild(words)
+            outterDiv.appendChild(leftDiv)
+            outterDiv.appendChild(imageContainer)
+            yapContainer.appendChild(outterDiv)
+        }
+    }
+}
+
+
+/* Misc Images */
+const miscImagesContainer = document.querySelector(".miscImages");
+const miscImages = ["PXL_20260813_172533996.jpg", "PXL_20260704_200419945.jpg", "PXL_20260711_175316395.jpg", "PXL_20260531_151059327.jpg"];
+
+if (miscImagesContainer) {
+    for (const img of miscImages) {
+        const imgElement = document.createElement("img");
+        const imgDiv = document.createElement("div")
+        imgElement.src = `/images/garden/${img}`;
+        imgElement.style.cssText = "max-width: min(100%, 130px); height: auto; margin: 10px; padding: 10px;";
+        imgDiv.style.cssText = "display: flex; flex-direction: column; align-items: center; justify-content: center; max-height: 130px; max-width: 130px; overflow: hidden; border: 3px dashed var(--med); border-radius: 4px;";
+        imgDiv.appendChild(imgElement);
+        miscImagesContainer.appendChild(imgDiv);
+    }
+
+}
