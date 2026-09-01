@@ -132,23 +132,27 @@ const yapContainer = document.getElementsByClassName('yapContainer')[0];
 const imagesAndWords = [
     {
         "title":"Garden Cat: Guardian and Caretaker",
-        "words":"Garden Cat watches over our plants, ensuring they thrive under his vigilant gaze.",
+        "words":"Garden Cat(legal name) watches over our plants, ensuring they thrive under his vigilant gaze. Protected by his slumber and dreams.",
         "image":"garden_cat.png",
         "orientation":"left" //left/right
     },
     {
         "title":"Start of this year's Tomatoes",
-        "words":"The tomatoes are just beginning to grow, promising a bountiful harvest in the coming months.",
+        "words":"I'm planting tomatoes this year! Peppers are usually my go-to, but last year I had success with cherry tomatoes so I figured I'd try beefsteak tomatoes this year.",
         "image":"PXL_20260802_202903613.MP.jpg",
         "orientation":"right" //left/right
+    },
+        {
+        "title":"Pumkin Patch: A Seasonal Delight",
+        "words":"My lovely partner has been growing pumpkins in our garden, getting ready for Halloween and the fall.",
+        "image":"PXL_20260815_223721856.jpg",
+        "orientation":"left" //left/right
     },
 ]
 
 const imageCSS = "max-width: min(100%, 300px); height: auto; margin: 20px; padding: 10px;"
 const imageContainerCSS = "display: flex; flex-direction: column; align-items: center; justify-content: center; max-height: 300px; max-width: 300px; overflow: hidden;"
 const outterDivCSS = "display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 20px; margin-top: 20px;"
-
-
 
 if (yapContainer){
     for(const iw of imagesAndWords){
