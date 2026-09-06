@@ -1,536 +1,5 @@
 [
   {
-    "recordedAt": "2026-08-30T07:49:19.640833",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 18.8,
-    "moisturePercentage": 20,
-    "lightLux": 4597,
-    "conductivity": 335,
-    "batteryPercentage": 41
-  },
-  {
-    "recordedAt": "2026-08-30T07:55:13.604499",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 19.4,
-    "moisturePercentage": 20,
-    "lightLux": 7803,
-    "conductivity": 335,
-    "batteryPercentage": 42
-  },
-  {
-    "recordedAt": "2026-08-30T08:01:15.718704",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 20.5,
-    "moisturePercentage": 20,
-    "lightLux": 4892,
-    "conductivity": 328,
-    "batteryPercentage": 42
-  },
-  {
-    "recordedAt": "2026-08-30T08:07:10.378005",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 20.9,
-    "moisturePercentage": 20,
-    "lightLux": 4823,
-    "conductivity": 324,
-    "batteryPercentage": 42
-  },
-  {
-    "recordedAt": "2026-08-30T08:13:10.817982",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 20.6,
-    "moisturePercentage": 20,
-    "lightLux": 5752,
-    "conductivity": 324,
-    "batteryPercentage": 43
-  },
-  {
-    "recordedAt": "2026-08-30T08:19:15.861134",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 20.6,
-    "moisturePercentage": 20,
-    "lightLux": 7524,
-    "conductivity": 325,
-    "batteryPercentage": 43
-  },
-  {
-    "recordedAt": "2026-08-30T08:31:11.859110",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 21.9,
-    "moisturePercentage": 20,
-    "lightLux": 81363,
-    "conductivity": 317,
-    "batteryPercentage": 43
-  },
-  {
-    "recordedAt": "2026-08-30T08:37:09.640919",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 23.5,
-    "moisturePercentage": 20,
-    "lightLux": 83000,
-    "conductivity": 309,
-    "batteryPercentage": 44
-  },
-  {
-    "recordedAt": "2026-08-30T08:43:18.024984",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 25.5,
-    "moisturePercentage": 21,
-    "lightLux": 84000,
-    "conductivity": 297,
-    "batteryPercentage": 44
-  },
-  {
-    "recordedAt": "2026-08-30T08:49:19.845191",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 26.5,
-    "moisturePercentage": 19,
-    "lightLux": 84409,
-    "conductivity": 292,
-    "batteryPercentage": 40
-  },
-  {
-    "recordedAt": "2026-08-30T08:55:11.733465",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 27.3,
-    "moisturePercentage": 19,
-    "lightLux": 83318,
-    "conductivity": 286,
-    "batteryPercentage": 41
-  },
-  {
-    "recordedAt": "2026-08-30T09:01:13.827358",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 27.6,
-    "moisturePercentage": 19,
-    "lightLux": 83863,
-    "conductivity": 282,
-    "batteryPercentage": 41
-  },
-  {
-    "recordedAt": "2026-08-30T09:07:21.664717",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 28.5,
-    "moisturePercentage": 20,
-    "lightLux": 82227,
-    "conductivity": 277,
-    "batteryPercentage": 42
-  },
-  {
-    "recordedAt": "2026-08-30T09:13:10.996207",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 28.2,
-    "moisturePercentage": 20,
-    "lightLux": 65857,
-    "conductivity": 278,
-    "batteryPercentage": 41
-  },
-  {
-    "recordedAt": "2026-08-30T09:19:11.574706",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 26.9,
-    "moisturePercentage": 19,
-    "lightLux": 84545,
-    "conductivity": 286,
-    "batteryPercentage": 42
-  },
-  {
-    "recordedAt": "2026-08-30T09:25:10.654722",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 28.8,
-    "moisturePercentage": 20,
-    "lightLux": 84409,
-    "conductivity": 274,
-    "batteryPercentage": 41
-  },
-  {
-    "recordedAt": "2026-08-30T09:31:09.603093",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 30.1,
-    "moisturePercentage": 20,
-    "lightLux": 84181,
-    "conductivity": 267,
-    "batteryPercentage": 43
-  },
-  {
-    "recordedAt": "2026-08-30T09:37:09.845419",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 30.0,
-    "moisturePercentage": 20,
-    "lightLux": 83454,
-    "conductivity": 268,
-    "batteryPercentage": 43
-  },
-  {
-    "recordedAt": "2026-08-30T09:43:13.696141",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 30.8,
-    "moisturePercentage": 20,
-    "lightLux": 84090,
-    "conductivity": 262,
-    "batteryPercentage": 43
-  },
-  {
-    "recordedAt": "2026-08-30T09:49:10.649173",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 31.6,
-    "moisturePercentage": 20,
-    "lightLux": 83090,
-    "conductivity": 258,
-    "batteryPercentage": 43
-  },
-  {
-    "recordedAt": "2026-08-30T09:55:12.693537",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 32.3,
-    "moisturePercentage": 20,
-    "lightLux": 81363,
-    "conductivity": 252,
-    "batteryPercentage": 44
-  },
-  {
-    "recordedAt": "2026-08-30T10:01:16.531837",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 32.2,
-    "moisturePercentage": 20,
-    "lightLux": 80652,
-    "conductivity": 254,
-    "batteryPercentage": 44
-  },
-  {
-    "recordedAt": "2026-08-30T10:07:10.769498",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 31.7,
-    "moisturePercentage": 20,
-    "lightLux": 85325,
-    "conductivity": 254,
-    "batteryPercentage": 45
-  },
-  {
-    "recordedAt": "2026-08-30T10:13:12.618781",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 32.7,
-    "moisturePercentage": 20,
-    "lightLux": 80913,
-    "conductivity": 250,
-    "batteryPercentage": 44
-  },
-  {
-    "recordedAt": "2026-08-30T10:19:11.681584",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 33.4,
-    "moisturePercentage": 20,
-    "lightLux": 81545,
-    "conductivity": 245,
-    "batteryPercentage": 45
-  },
-  {
-    "recordedAt": "2026-08-30T10:25:10.732104",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 33.7,
-    "moisturePercentage": 20,
-    "lightLux": 81454,
-    "conductivity": 244,
-    "batteryPercentage": 44
-  },
-  {
-    "recordedAt": "2026-08-30T10:31:10.640467",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 34.2,
-    "moisturePercentage": 20,
-    "lightLux": 81090,
-    "conductivity": 240,
-    "batteryPercentage": 46
-  },
-  {
-    "recordedAt": "2026-08-30T10:37:10.535829",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 33.9,
-    "moisturePercentage": 20,
-    "lightLux": 80913,
-    "conductivity": 239,
-    "batteryPercentage": 46
-  },
-  {
-    "recordedAt": "2026-08-30T10:43:18.592332",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 34.2,
-    "moisturePercentage": 20,
-    "lightLux": 78659,
-    "conductivity": 238,
-    "batteryPercentage": 46
-  },
-  {
-    "recordedAt": "2026-08-30T10:49:12.515159",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 33.8,
-    "moisturePercentage": 20,
-    "lightLux": 83954,
-    "conductivity": 238,
-    "batteryPercentage": 47
-  },
-  {
-    "recordedAt": "2026-08-30T10:55:12.513058",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 35.0,
-    "moisturePercentage": 20,
-    "lightLux": 80391,
-    "conductivity": 232,
-    "batteryPercentage": 47
-  },
-  {
-    "recordedAt": "2026-08-30T11:01:13.646139",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 35.0,
-    "moisturePercentage": 20,
-    "lightLux": 79782,
-    "conductivity": 231,
-    "batteryPercentage": 46
-  },
-  {
-    "recordedAt": "2026-08-30T11:07:14.633536",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 34.9,
-    "moisturePercentage": 20,
-    "lightLux": 79608,
-    "conductivity": 230,
-    "batteryPercentage": 47
-  },
-  {
-    "recordedAt": "2026-08-30T11:13:11.497669",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 34.8,
-    "moisturePercentage": 20,
-    "lightLux": 80043,
-    "conductivity": 232,
-    "batteryPercentage": 47
-  },
-  {
-    "recordedAt": "2026-08-30T11:19:12.601624",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 35.1,
-    "moisturePercentage": 19,
-    "lightLux": 78319,
-    "conductivity": 229,
-    "batteryPercentage": 47
-  },
-  {
-    "recordedAt": "2026-08-30T11:25:13.399898",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 34.5,
-    "moisturePercentage": 19,
-    "lightLux": 75833,
-    "conductivity": 231,
-    "batteryPercentage": 48
-  },
-  {
-    "recordedAt": "2026-08-30T11:31:10.465256",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 33.9,
-    "moisturePercentage": 19,
-    "lightLux": 74040,
-    "conductivity": 235,
-    "batteryPercentage": 48
-  },
-  {
-    "recordedAt": "2026-08-30T11:37:12.496020",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 33.8,
-    "moisturePercentage": 19,
-    "lightLux": 78319,
-    "conductivity": 235,
-    "batteryPercentage": 49
-  },
-  {
-    "recordedAt": "2026-08-30T11:43:10.414657",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 33.1,
-    "moisturePercentage": 19,
-    "lightLux": 75333,
-    "conductivity": 238,
-    "batteryPercentage": 48
-  },
-  {
-    "recordedAt": "2026-08-30T11:49:12.388711",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 31.8,
-    "moisturePercentage": 19,
-    "lightLux": 24815,
-    "conductivity": 244,
-    "batteryPercentage": 49
-  },
-  {
-    "recordedAt": "2026-08-30T11:55:11.365339",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 31.0,
-    "moisturePercentage": 19,
-    "lightLux": 15926,
-    "conductivity": 247,
-    "batteryPercentage": 48
-  },
-  {
-    "recordedAt": "2026-08-30T12:01:11.470289",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 31.0,
-    "moisturePercentage": 19,
-    "lightLux": 14016,
-    "conductivity": 249,
-    "batteryPercentage": 48
-  },
-  {
-    "recordedAt": "2026-08-30T12:07:23.394665",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 30.7,
-    "moisturePercentage": 18,
-    "lightLux": 11968,
-    "conductivity": 248,
-    "batteryPercentage": 48
-  },
-  {
-    "recordedAt": "2026-08-30T12:13:10.401749",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 30.7,
-    "moisturePercentage": 18,
-    "lightLux": 9507,
-    "conductivity": 248,
-    "batteryPercentage": 49
-  },
-  {
-    "recordedAt": "2026-08-30T12:19:10.361820",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 30.8,
-    "moisturePercentage": 19,
-    "lightLux": 7762,
-    "conductivity": 247,
-    "batteryPercentage": 49
-  },
-  {
-    "recordedAt": "2026-08-30T12:25:20.534703",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 31.0,
-    "moisturePercentage": 19,
-    "lightLux": 7163,
-    "conductivity": 246,
-    "batteryPercentage": 49
-  },
-  {
-    "recordedAt": "2026-08-30T12:31:11.604080",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 30.9,
-    "moisturePercentage": 18,
-    "lightLux": 9341,
-    "conductivity": 245,
-    "batteryPercentage": 49
-  },
-  {
-    "recordedAt": "2026-08-30T12:37:12.458348",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 30.4,
-    "moisturePercentage": 18,
-    "lightLux": 4604,
-    "conductivity": 248,
-    "batteryPercentage": 48
-  },
-  {
-    "recordedAt": "2026-08-30T12:43:12.392439",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 29.5,
-    "moisturePercentage": 18,
-    "lightLux": 4521,
-    "conductivity": 250,
-    "batteryPercentage": 48
-  },
-  {
-    "recordedAt": "2026-08-30T12:49:10.464083",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 28.5,
-    "moisturePercentage": 18,
-    "lightLux": 72840,
-    "conductivity": 254,
-    "batteryPercentage": 48
-  },
-  {
-    "recordedAt": "2026-08-30T12:55:12.434704",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 27.9,
-    "moisturePercentage": 18,
-    "lightLux": 5264,
-    "conductivity": 258,
-    "batteryPercentage": 48
-  },
-  {
-    "recordedAt": "2026-08-30T13:01:15.678635",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 27.7,
-    "moisturePercentage": 18,
-    "lightLux": 4400,
-    "conductivity": 258,
-    "batteryPercentage": 48
-  },
-  {
-    "recordedAt": "2026-08-30T13:07:11.364292",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 27.4,
-    "moisturePercentage": 18,
-    "lightLux": 4416,
-    "conductivity": 259,
-    "batteryPercentage": 47
-  },
-  {
-    "recordedAt": "2026-08-30T13:13:14.403960",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 27.6,
-    "moisturePercentage": 18,
-    "lightLux": 6453,
-    "conductivity": 259,
-    "batteryPercentage": 48
-  },
-  {
-    "recordedAt": "2026-08-30T13:19:10.508941",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 27.8,
-    "moisturePercentage": 18,
-    "lightLux": 14342,
-    "conductivity": 258,
-    "batteryPercentage": 48
-  },
-  {
-    "recordedAt": "2026-08-30T13:25:10.345273",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 29.0,
-    "moisturePercentage": 18,
-    "lightLux": 41409,
-    "conductivity": 250,
-    "batteryPercentage": 48
-  },
-  {
-    "recordedAt": "2026-08-30T13:31:10.450312",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 29.2,
-    "moisturePercentage": 18,
-    "lightLux": 80304,
-    "conductivity": 247,
-    "batteryPercentage": 49
-  },
-  {
-    "recordedAt": "2026-08-30T13:37:10.482375",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 28.9,
-    "moisturePercentage": 18,
-    "lightLux": 5550,
-    "conductivity": 248,
-    "batteryPercentage": 49
-  },
-  {
-    "recordedAt": "2026-08-30T13:43:10.487960",
-    "sensorMAC": "5C:85:7E:14:25:65",
-    "tempC": 29.0,
-    "moisturePercentage": 18,
-    "lightLux": 5352,
-    "conductivity": 245,
-    "batteryPercentage": 48
-  },
-  {
     "recordedAt": "2026-08-30T13:49:11.324721",
     "sensorMAC": "5C:85:7E:14:25:65",
     "tempC": 29.1,
@@ -14992,5 +14461,545 @@
     "lightLux": 3048,
     "conductivity": 594,
     "batteryPercentage": 41
+  },
+  {
+    "recordedAt": "2026-09-06T07:49:12.211942",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 16.4,
+    "moisturePercentage": 36,
+    "lightLux": 2981,
+    "conductivity": 593,
+    "batteryPercentage": 41
+  },
+  {
+    "recordedAt": "2026-09-06T07:55:12.309615",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 17.0,
+    "moisturePercentage": 36,
+    "lightLux": 4238,
+    "conductivity": 587,
+    "batteryPercentage": 42
+  },
+  {
+    "recordedAt": "2026-09-06T08:01:12.386029",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 17.9,
+    "moisturePercentage": 37,
+    "lightLux": 4549,
+    "conductivity": 575,
+    "batteryPercentage": 41
+  },
+  {
+    "recordedAt": "2026-09-06T08:07:13.295144",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 18.3,
+    "moisturePercentage": 37,
+    "lightLux": 4559,
+    "conductivity": 572,
+    "batteryPercentage": 41
+  },
+  {
+    "recordedAt": "2026-09-06T08:13:10.256791",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 19.2,
+    "moisturePercentage": 37,
+    "lightLux": 9823,
+    "conductivity": 561,
+    "batteryPercentage": 42
+  },
+  {
+    "recordedAt": "2026-09-06T08:19:11.189687",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 19.4,
+    "moisturePercentage": 37,
+    "lightLux": 4255,
+    "conductivity": 561,
+    "batteryPercentage": 42
+  },
+  {
+    "recordedAt": "2026-09-06T08:25:11.270165",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 19.2,
+    "moisturePercentage": 37,
+    "lightLux": 14989,
+    "conductivity": 561,
+    "batteryPercentage": 41
+  },
+  {
+    "recordedAt": "2026-09-06T08:31:13.153646",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 19.4,
+    "moisturePercentage": 36,
+    "lightLux": 3998,
+    "conductivity": 559,
+    "batteryPercentage": 42
+  },
+  {
+    "recordedAt": "2026-09-06T08:37:10.188309",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 18.9,
+    "moisturePercentage": 37,
+    "lightLux": 82909,
+    "conductivity": 566,
+    "batteryPercentage": 42
+  },
+  {
+    "recordedAt": "2026-09-06T08:43:12.267286",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 21.8,
+    "moisturePercentage": 36,
+    "lightLux": 19925,
+    "conductivity": 539,
+    "batteryPercentage": 43
+  },
+  {
+    "recordedAt": "2026-09-06T08:49:16.196716",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 21.9,
+    "moisturePercentage": 36,
+    "lightLux": 5529,
+    "conductivity": 536,
+    "batteryPercentage": 43
+  },
+  {
+    "recordedAt": "2026-09-06T08:55:16.301894",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 23.6,
+    "moisturePercentage": 36,
+    "lightLux": 9803,
+    "conductivity": 520,
+    "batteryPercentage": 43
+  },
+  {
+    "recordedAt": "2026-09-06T09:01:12.306690",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 23.4,
+    "moisturePercentage": 36,
+    "lightLux": 79260,
+    "conductivity": 522,
+    "batteryPercentage": 43
+  },
+  {
+    "recordedAt": "2026-09-06T09:07:11.169574",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 23.7,
+    "moisturePercentage": 36,
+    "lightLux": 73160,
+    "conductivity": 516,
+    "batteryPercentage": 43
+  },
+  {
+    "recordedAt": "2026-09-06T09:13:10.072660",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 22.9,
+    "moisturePercentage": 36,
+    "lightLux": 35336,
+    "conductivity": 527,
+    "batteryPercentage": 43
+  },
+  {
+    "recordedAt": "2026-09-06T09:19:16.184686",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 24.1,
+    "moisturePercentage": 36,
+    "lightLux": 69547,
+    "conductivity": 516,
+    "batteryPercentage": 43
+  },
+  {
+    "recordedAt": "2026-09-06T09:25:10.136344",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 25.5,
+    "moisturePercentage": 36,
+    "lightLux": 83909,
+    "conductivity": 498,
+    "batteryPercentage": 44
+  },
+  {
+    "recordedAt": "2026-09-06T09:31:12.189794",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 27.5,
+    "moisturePercentage": 37,
+    "lightLux": 85837,
+    "conductivity": 481,
+    "batteryPercentage": 44
+  },
+  {
+    "recordedAt": "2026-09-06T09:37:15.242936",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 28.6,
+    "moisturePercentage": 37,
+    "lightLux": 88756,
+    "conductivity": 471,
+    "batteryPercentage": 45
+  },
+  {
+    "recordedAt": "2026-09-06T09:43:13.183423",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 29.5,
+    "moisturePercentage": 37,
+    "lightLux": 93939,
+    "conductivity": 463,
+    "batteryPercentage": 45
+  },
+  {
+    "recordedAt": "2026-09-06T09:49:10.067665",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 30.2,
+    "moisturePercentage": 37,
+    "lightLux": 97357,
+    "conductivity": 454,
+    "batteryPercentage": 45
+  },
+  {
+    "recordedAt": "2026-09-06T09:55:11.122391",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 28.4,
+    "moisturePercentage": 37,
+    "lightLux": 60824,
+    "conductivity": 468,
+    "batteryPercentage": 46
+  },
+  {
+    "recordedAt": "2026-09-06T10:01:14.379185",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 29.1,
+    "moisturePercentage": 37,
+    "lightLux": 77851,
+    "conductivity": 464,
+    "batteryPercentage": 45
+  },
+  {
+    "recordedAt": "2026-09-06T10:07:10.204710",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 29.7,
+    "moisturePercentage": 37,
+    "lightLux": 99351,
+    "conductivity": 459,
+    "batteryPercentage": 47
+  },
+  {
+    "recordedAt": "2026-09-06T10:13:13.164667",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 30.4,
+    "moisturePercentage": 37,
+    "lightLux": 76416,
+    "conductivity": 450,
+    "batteryPercentage": 47
+  },
+  {
+    "recordedAt": "2026-09-06T10:19:12.087052",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 31.2,
+    "moisturePercentage": 37,
+    "lightLux": 104303,
+    "conductivity": 445,
+    "batteryPercentage": 47
+  },
+  {
+    "recordedAt": "2026-09-06T10:25:10.116218",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 32.6,
+    "moisturePercentage": 38,
+    "lightLux": 104616,
+    "conductivity": 428,
+    "batteryPercentage": 47
+  },
+  {
+    "recordedAt": "2026-09-06T10:31:18.151438",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 33.0,
+    "moisturePercentage": 38,
+    "lightLux": 103677,
+    "conductivity": 424,
+    "batteryPercentage": 47
+  },
+  {
+    "recordedAt": "2026-09-06T10:37:04.109320",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 33.3,
+    "moisturePercentage": 38,
+    "lightLux": 103442,
+    "conductivity": 422,
+    "batteryPercentage": 48
+  },
+  {
+    "recordedAt": "2026-09-06T10:42:10.114212",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 33.9,
+    "moisturePercentage": 38,
+    "lightLux": 103834,
+    "conductivity": 418,
+    "batteryPercentage": 48
+  },
+  {
+    "recordedAt": "2026-09-06T10:48:12.074673",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 33.9,
+    "moisturePercentage": 38,
+    "lightLux": 102895,
+    "conductivity": 418,
+    "batteryPercentage": 48
+  },
+  {
+    "recordedAt": "2026-09-06T10:54:10.122896",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 34.7,
+    "moisturePercentage": 38,
+    "lightLux": 102503,
+    "conductivity": 410,
+    "batteryPercentage": 48
+  },
+  {
+    "recordedAt": "2026-09-06T10:59:49.221844",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 34.2,
+    "moisturePercentage": 38,
+    "lightLux": 101017,
+    "conductivity": 413,
+    "batteryPercentage": 48
+  },
+  {
+    "recordedAt": "2026-09-06T11:05:12.025138",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 34.8,
+    "moisturePercentage": 38,
+    "lightLux": 102973,
+    "conductivity": 408,
+    "batteryPercentage": 48
+  },
+  {
+    "recordedAt": "2026-09-06T11:10:50.008897",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 35.4,
+    "moisturePercentage": 38,
+    "lightLux": 101721,
+    "conductivity": 402,
+    "batteryPercentage": 48
+  },
+  {
+    "recordedAt": "2026-09-06T11:16:13.178932",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 35.2,
+    "moisturePercentage": 38,
+    "lightLux": 102895,
+    "conductivity": 400,
+    "batteryPercentage": 49
+  },
+  {
+    "recordedAt": "2026-09-06T11:22:10.108313",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 33.6,
+    "moisturePercentage": 36,
+    "lightLux": 86209,
+    "conductivity": 416,
+    "batteryPercentage": 49
+  },
+  {
+    "recordedAt": "2026-09-06T11:28:11.005452",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 32.4,
+    "moisturePercentage": 36,
+    "lightLux": 19882,
+    "conductivity": 427,
+    "batteryPercentage": 49
+  },
+  {
+    "recordedAt": "2026-09-06T11:34:11.196802",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 31.3,
+    "moisturePercentage": 36,
+    "lightLux": 17741,
+    "conductivity": 437,
+    "batteryPercentage": 49
+  },
+  {
+    "recordedAt": "2026-09-06T11:40:10.082268",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 30.5,
+    "moisturePercentage": 36,
+    "lightLux": 16428,
+    "conductivity": 440,
+    "batteryPercentage": 49
+  },
+  {
+    "recordedAt": "2026-09-06T11:46:12.002429",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 30.0,
+    "moisturePercentage": 36,
+    "lightLux": 16486,
+    "conductivity": 445,
+    "batteryPercentage": 49
+  },
+  {
+    "recordedAt": "2026-09-06T11:52:17.949299",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 29.9,
+    "moisturePercentage": 36,
+    "lightLux": 12401,
+    "conductivity": 448,
+    "batteryPercentage": 49
+  },
+  {
+    "recordedAt": "2026-09-06T11:58:11.129216",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 29.6,
+    "moisturePercentage": 36,
+    "lightLux": 9694,
+    "conductivity": 448,
+    "batteryPercentage": 50
+  },
+  {
+    "recordedAt": "2026-09-06T12:04:15.005200",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 29.9,
+    "moisturePercentage": 36,
+    "lightLux": 8458,
+    "conductivity": 444,
+    "batteryPercentage": 49
+  },
+  {
+    "recordedAt": "2026-09-06T12:10:12.022588",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 29.9,
+    "moisturePercentage": 36,
+    "lightLux": 6652,
+    "conductivity": 444,
+    "batteryPercentage": 50
+  },
+  {
+    "recordedAt": "2026-09-06T12:16:11.976707",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 30.2,
+    "moisturePercentage": 36,
+    "lightLux": 6400,
+    "conductivity": 438,
+    "batteryPercentage": 50
+  },
+  {
+    "recordedAt": "2026-09-06T12:22:12.086941",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 30.7,
+    "moisturePercentage": 36,
+    "lightLux": 6400,
+    "conductivity": 434,
+    "batteryPercentage": 50
+  },
+  {
+    "recordedAt": "2026-09-06T12:28:11.208709",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 31.1,
+    "moisturePercentage": 36,
+    "lightLux": 6177,
+    "conductivity": 429,
+    "batteryPercentage": 54
+  },
+  {
+    "recordedAt": "2026-09-06T12:34:09.988957",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 30.7,
+    "moisturePercentage": 36,
+    "lightLux": 4969,
+    "conductivity": 430,
+    "batteryPercentage": 54
+  },
+  {
+    "recordedAt": "2026-09-06T12:40:12.010167",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 30.4,
+    "moisturePercentage": 36,
+    "lightLux": 82772,
+    "conductivity": 435,
+    "batteryPercentage": 50
+  },
+  {
+    "recordedAt": "2026-09-06T12:46:09.963111",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 29.6,
+    "moisturePercentage": 36,
+    "lightLux": 4477,
+    "conductivity": 439,
+    "batteryPercentage": 54
+  },
+  {
+    "recordedAt": "2026-09-06T12:52:12.984663",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 28.7,
+    "moisturePercentage": 35,
+    "lightLux": 4507,
+    "conductivity": 447,
+    "batteryPercentage": 54
+  },
+  {
+    "recordedAt": "2026-09-06T12:58:10.035813",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 28.3,
+    "moisturePercentage": 35,
+    "lightLux": 4381,
+    "conductivity": 449,
+    "batteryPercentage": 50
+  },
+  {
+    "recordedAt": "2026-09-06T13:04:09.889973",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 28.4,
+    "moisturePercentage": 35,
+    "lightLux": 4382,
+    "conductivity": 445,
+    "batteryPercentage": 54
+  },
+  {
+    "recordedAt": "2026-09-06T13:10:17.875322",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 28.2,
+    "moisturePercentage": 35,
+    "lightLux": 4641,
+    "conductivity": 447,
+    "batteryPercentage": 54
+  },
+  {
+    "recordedAt": "2026-09-06T13:16:10.986669",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 27.8,
+    "moisturePercentage": 35,
+    "lightLux": 4646,
+    "conductivity": 450,
+    "batteryPercentage": 50
+  },
+  {
+    "recordedAt": "2026-09-06T13:22:10.991722",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 28.4,
+    "moisturePercentage": 35,
+    "lightLux": 4499,
+    "conductivity": 443,
+    "batteryPercentage": 50
+  },
+  {
+    "recordedAt": "2026-09-06T13:34:12.000679",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 29.0,
+    "moisturePercentage": 35,
+    "lightLux": 13026,
+    "conductivity": 431,
+    "batteryPercentage": 54
+  },
+  {
+    "recordedAt": "2026-09-06T13:40:13.081427",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 29.3,
+    "moisturePercentage": 35,
+    "lightLux": 6262,
+    "conductivity": 430,
+    "batteryPercentage": 54
+  },
+  {
+    "recordedAt": "2026-09-06T13:46:17.024684",
+    "sensorMAC": "5C:85:7E:14:25:65",
+    "tempC": 29.9,
+    "moisturePercentage": 35,
+    "lightLux": 5707,
+    "conductivity": 423,
+    "batteryPercentage": 54
   }
 ]
